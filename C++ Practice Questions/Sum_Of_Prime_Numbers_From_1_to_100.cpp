@@ -1,13 +1,13 @@
 #include <iostream>
 using namespace std;
 
-int primtSumTill(int n);
+int printSumTill(int n);
 
 int main() {
    cout << printSumTill(100);
 }
 
-int primtSumTill(int n){
+int printSumTill(int n){
    if(n<2) return 0;
    int sum=0;
    bool isPrime = true;
